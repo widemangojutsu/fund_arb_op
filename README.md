@@ -8,8 +8,7 @@ This system monitors price differences between Extended and Lighter exchanges, i
 
 
 ## ===== WORK IN PROGRESS =====
--needs margin/risk
--needs auto execution
+-needs proper margin/risk and auto execution
 
 ## Key Features
 
