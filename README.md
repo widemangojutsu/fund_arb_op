@@ -39,6 +39,7 @@ The system is configured via environment variables in the `.env` file:
 2. Run the system:
 
 ```bash
+python lightersetup.py to get lighter subaccount index to get LIGHTER_ACCOUNT_INDEX for .env
 python main.py
 ```
 
