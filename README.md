@@ -8,7 +8,9 @@ This system monitors price differences between Extended and Lighter exchanges, i
 
 
 ## ===== WORK IN PROGRESS =====
--needs proper margin/risk and auto execution
+- needs proper margin/risk 
+- needs auto execution
+- ONLY RETURNS TOP 3 OPPORTUNITIES
 
 ## Exchanges
 - Extended https://app.extended.exchange/join/FUND_ARB_OP
