@@ -1,6 +1,6 @@
 # Fund Arbitrage Operations Framework
 
-A high-frequency trading (HFT) arbitrage system for cryptocurrency markets with advanced liquidity validation.
+Arbitrage system for dex's.
 
 ## Overview
 
@@ -29,28 +29,8 @@ This system monitors price differences between Extended and Lighter exchanges, i
 ## Configuration
 
 The system is configured via environment variables in the `.env` file:
-
 ```
-# Exchange Credentials
-EXTENDED_API_KEY=your_api_key
-EXTENDED_PRIVATE_KEY=your_private_key
-EXTENDED_VAULT=0
-ETH_PRIVATE_KEY=your_eth_key
-
-# Exchange URLs
-EXTENDED_BASE_URL=https://api.extended.example
-EXTENDED_STREAM_URL=wss://stream.extended.example
-LIGHTER_BASE_URL=https://api.lighter.example
-LIGHTER_WS_URL=wss://ws.lighter.example
-
-# Trading Configuration
-TRADING_MODE=dry_run # or 'live'
-AUTO_EXECUTION_ENABLED=false
-CONSERVATIVE_MODE=true
-
-# Risk Parameters
-MAX_POSITION_SIZE_USD=500
-MIN_EXECUTION_SPREAD_BPS=5
+  update the .env.example with your own credentials and rename .env.example to .env
 ```
 
 ## Usage
