@@ -63,7 +63,7 @@ The system is configured via environment variables in the `.env` file:
 create extended account, get the api keys from extended through the 'more' tab, under api
 create lighter sub account, run lightersetup.py, get the subaccount index
 ```bash
-python lightersetup.py to get lighter subaccount index for LIGHTER_ACCOUNT_INDEX for .env
+python lightersetup.py
 python main.py
 ```
 
