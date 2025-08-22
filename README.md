@@ -10,6 +10,10 @@ This system monitors price differences between Extended and Lighter exchanges, i
 ## ===== WORK IN PROGRESS =====
 -needs proper margin/risk and auto execution
 
+## Exchanges
+Extended https://app.extended.exchange/join/FUND_ARB_OP
+Lighter https://app.lighter.xyz/trade/ETH?referral=JF1ALMTQDR5E
+
 ## Key Features
 
 - **Real-time Opportunity Discovery**: Continuously scans and ranks arbitrage opportunities
