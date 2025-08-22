@@ -26,6 +26,29 @@ This system monitors price differences between Extended and Lighter exchanges, i
 - `lightersetup.py`: Lighter API key bootstrap utilities
 - `utils/`: Support utilities
 
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Note: The requirements.txt includes the Lighter package directly from GitHub rather than PyPI.
+
+## Requirements
+
+Dependencies (installed via requirements.txt):
+- aiohttp: HTTP client for API requests
+- requests: HTTP client for REST API requests
+- python-dotenv: Environment variable management
+- eth-account: Ethereum account management
+- lighter: Direct installation from GitHub repo
+- x10-perpetual-sdk: SDK for X10 perpetual contracts
+- websockets: WebSocket client for real-time data
+
+
 ## Configuration
 
 The system is configured via environment variables in the `.env` file:
