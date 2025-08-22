@@ -5,7 +5,9 @@ Arbitrage system for dex's.
 ## Overview
 
 This system monitors price differences between Extended and Lighter exchanges, identifying and automatically executing arbitrage opportunities with comprehensive risk management and liquidity validation.
-===== WORK IN PROGRESS =====
+
+
+## ===== WORK IN PROGRESS =====
 -needs margin/risk
 -needs auto execution
 
