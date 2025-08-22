@@ -7,14 +7,20 @@ import requests
 import aiohttp
 import eth_account
 import lighter
+import dotenv
+import os
 
 logging.basicConfig(level=logging.DEBUG)
 
 # this is a dummy private key which is registered on Testnet.
 # It serves as a good example
-BASE_URL = "https://mainnet.zklighter.elliot.ai"
-ETH_PRIVATE_KEY = "0x11b903fd57cc7308dc5ae6e9cd434b47a46bbd5c801173ab3ff7872ee95deaf8"
-API_KEY_INDEX = 1
+
+# load environment variables
+dotenv.load_dotenv()
+
+BASE_URL = os.getenv("LIGHTER_BASE_URL")
+ETH_PRIVATE_KEY = os.getenv("ETH_PRIVATE_KEY")
+API_KEY_INDEX = os.getenv("LIGHTER_API_KEY_INDEX")
 
 
 def get_funding_rates(instrument_id=None):
